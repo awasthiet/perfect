@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19978" started-at="2017-08-30T09:35:31Z" finished-at="2017-08-30T09:35:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19978" started-at="2017-08-30T09:35:31Z" finished-at="2017-08-30T09:35:51Z">
+      <class name="demo.login">
+        <test-method status="PASS" signature="openurl()[pri:0, instance:demo.login@4439f31e]" name="openurl" duration-ms="13343" started-at="2017-08-30T15:05:31Z" finished-at="2017-08-30T15:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="verifyname()[pri:0, instance:demo.login@4439f31e]" name="verifyname" duration-ms="1176" started-at="2017-08-30T15:05:44Z" depends-on-methods="demo.login.openurl" finished-at="2017-08-30T15:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyname -->
+        <test-method status="PASS" signature="iphone()[pri:0, instance:demo.login@4439f31e]" name="iphone" duration-ms="687" started-at="2017-08-30T15:05:46Z" depends-on-methods="demo.login.openurl, demo.login.verifyname" finished-at="2017-08-30T15:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method status="PASS" signature="iphone6()[pri:0, instance:demo.login@4439f31e]" name="iphone6" duration-ms="4743" started-at="2017-08-30T15:05:46Z" depends-on-methods="demo.login.openurl, demo.login.iphone, demo.login.verifyname" finished-at="2017-08-30T15:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone6 -->
+      </class> <!-- demo.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
